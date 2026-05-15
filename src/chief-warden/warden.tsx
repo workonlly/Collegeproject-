@@ -108,9 +108,22 @@ function Warden() {
   return (
     <div className="min-h-screen bg-[#f5f5f5] flex flex-col">
       
+      
       {/* 1. Primary Maroon Navbar */}
-      <nav className="w-full bg-[#5b0e0e] text-white shadow-md px-6 py-4 flex justify-end items-center z-10 sticky top-0">
-    
+      <nav className="w-full bg-[#5b0e0e] text-white shadow-md px-6 py-4 flex justify-between items-center z-10 sticky top-0">
+                <div className="flex items-center gap-3 justify-center ">
+  <img
+    src="l.png"
+    alt="nithlogo"
+    width={60}
+    height={60}
+    className="object-contain"
+  />
+
+  <h1 className="text-2xl font-bold">
+   warden
+  </h1>
+</div>
         <div className="flex items-center space-x-4">
           <div className="flex flex-col text-right">
             <span className="text-sm font-bold leading-tight">{wardenUser.name}</span>

@@ -126,10 +126,19 @@ function Login() {
       {/* Left Section */}
       <div className="hidden md:flex w-1/2 bg-[#5b0e0e] text-white items-center justify-center p-16">
         <div>
-          <h1 className="text-5xl font-bold mb-5">
-            Hostel Management
-          </h1>
+         <div className="flex items-center gap-3 justify-center mb-5">
+  <img
+    src="l.png"
+    alt="nithlogo"
+    width={80}
+    height={80}
+    className="object-contain"
+  />
 
+  <h1 className="text-5xl font-bold">
+    Hostel Management
+  </h1>
+</div>
           <p className="text-lg text-gray-200 leading-8">
             Smart hostel administration system for
             outpass management, complaints and student monitoring.

@@ -248,7 +248,20 @@ function Admin() {
   return (
     <div className="min-h-screen bg-[#f5f5f5] flex flex-col">
       <nav className="w-full bg-[#5b0e0e] text-white shadow-md px-6 py-4 flex justify-between items-center z-10 sticky top-0">
-        <h1 className="text-2xl font-bold tracking-wide">Admin Panel</h1>
+         <div className="flex items-center gap-3 justify-center ">
+  <img
+    src="l.png"
+    alt="nithlogo"
+    width={60}
+    height={60}
+    className="object-contain"
+  />
+
+  <h1 className="text-2xl font-bold">
+   Admin Panel
+  </h1>
+</div>
+        
         
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-3 bg-[#741616] px-4 py-2 rounded-full border border-[#8a1a1a]">

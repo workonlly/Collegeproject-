@@ -117,9 +117,19 @@ function Complaint() {
       
       {/* 1. Primary Maroon Navbar */}
       <nav className="w-full bg-[#5b0e0e] text-white shadow-md px-6 py-4 flex justify-between items-center z-10 sticky top-0">
-        <h1 className="text-2xl font-bold tracking-wide">
-          Hostel Management
-        </h1>
+         <div className="flex items-center gap-3 justify-center ">
+  <img
+    src="l.png"
+    alt="nithlogo"
+    width={60}
+    height={60}
+    className="object-contain"
+  />
+
+  <h1 className="text-2xl font-bold">
+    Hostel Management
+  </h1>
+</div>
         
         <div className="flex items-center space-x-2 md:space-x-4">
           <button
